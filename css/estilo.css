@@ -1,0 +1,98 @@
+ :root{
+    --primary-color: #adadda;
+    --secondary-color: #401b63; 
+ }
+
+ html{
+    font-size: 62.5%;
+ }
+
+ body{
+    display: flex;
+    margin: 0;
+    color: #e7e7e7;
+    background-color: #ccc;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    line-height: 1.7;
+ }
+
+ h1{
+    font-size: 4rem;
+    color: #e7e7e7;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+ }
+
+ h2, h3, h4, h5 , h6{
+    color:#cac2c2;
+    margin: 0;
+ }
+
+ h2{
+    margin-top: 1rem;
+ }
+
+ article{
+   padding-top:1 px;
+   padding-bottom: 1px;
+   border-top: .5px solid;
+ }
+
+ .main-header{
+    flex: 0 0 17rem;
+    background-color: var(--secondary-color);
+ }
+
+ .main{
+    background-color: #29123e;
+    flex: 1 0;
+    padding: 6.5rem 6rem 7.5rem;
+ }
+
+ .perfil-img{
+    max-width: 15rem;
+    border-radius: 50%;
+ }
+
+ a{
+    color: inherit;
+ }
+
+ .main, .main-header{
+    font-size: 1.6rem;
+ }
+
+ .main-nav{
+    text-align: right;
+    padding: 6.5rem 2.4rem 2.4rem;
+ }
+
+ .main-nav ul{
+    padding: 0;
+    list-style-type: none;
+
+ }
+
+ .main-nav ul a{
+    display: block;
+    padding: 1.2rem 0;
+    text-decoration: none;
+    transition: padding-right .2s, backgroung-color .4s;
+    background-color: transparent;
+ }
+
+ .main-nav ul a:hover,
+ .main-nav ul a:focus{
+    background-color: var(--primary-color);
+    padding-right: 1rem;
+ }
+
+ .main-nav li{
+    border-bottom: 1px solid #7b7b7b;
+    padding: .4rem 0;
+ }
+
+.socialmediaP{
+   display: flex;
+}
